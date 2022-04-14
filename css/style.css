@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toDoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    min-height: 600px;
+    background-color: blue;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.inputText {
+width: 80%;
+height: 60px;
+}
+.buttonAdd {
+width: 20%;
+height: 66px;
+font-size: 30px;
+color:aliceblue;
+background-color: red;
+}
+.buttonAdd:hover {
+    background-color: brown;
+}
+.toDos {
+      margin-top: 25px;
+  }
+  .paragraph_styling {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      font-size: 30px;
+      color: blue;
+      width: 100%;
+      height: 60px;
+      margin-bottom: 10px;
+      background-color: yellowgreen;
+  }
+  .toDoContainer {
+      width: 80%;
+      margin: 0 auto;
+      float: left;
+      margin-top: 10px;
+      margin-bottom: 20px;
+  }
+
+
+
+
+
