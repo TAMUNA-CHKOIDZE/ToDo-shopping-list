@@ -3,63 +3,89 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .toDoList {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     min-height: 600px;
     background-color: blue;
     border-radius: 15px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
 }
-.title {
+
+.title_list {
     text-align: center;
     color: aliceblue;
     font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    -webkit-text-stroke: 2px red;
 }
+
 .container {
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
 }
-.inputText {
-width: 80%;
-height: 60px;
+
+::placeholder {
+    font-size: 30px;
+    color: brown;
+    opacity: 0.5;
 }
+
+.input {
+    width: 80%;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    outline: none;
+    border: none;
+}
+
 .buttonAdd {
-width: 20%;
-height: 66px;
-font-size: 30px;
-color:aliceblue;
-background-color: red;
+    width: 20%;
+    height: 65px;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: red;
+    border: none;
 }
+
 .buttonAdd:hover {
     background-color: brown;
+    color: yellow;
 }
-.toDos {
-      margin-top: 25px;
-  }
-  .paragraph_styling {
-      display: flex;
-      align-items: center;
-      cursor: pointer;
-      font-size: 30px;
-      color: blue;
-      width: 100%;
-      height: 60px;
-      margin-bottom: 10px;
-      background-color: yellowgreen;
-  }
-  .toDoContainer {
-      width: 80%;
-      margin: 0 auto;
-      float: left;
-      margin-top: 10px;
-      margin-bottom: 20px;
-  }
 
+.paragraph_styling {
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
 
+.chamonatvali {
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.krestik {
+    width: 40px;
+    height: 40px;
+}
 
-
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
